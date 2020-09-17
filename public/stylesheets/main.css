@@ -1,0 +1,24 @@
+html,body {
+	margin:0;
+    padding:0;
+    width: 100vw;
+    background-image: url(../Images/bg1.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+	overflow-y: scroll;
+    overflow-x: hidden;
+}
+.thumbnail img{
+    width: 100%;
+}
+.thumbnail{
+    padding: 0;
+}
+.thumbnail .caption-full{
+    padding: 9px;
+}
+.delete-form{
+    display: inline;
+}
